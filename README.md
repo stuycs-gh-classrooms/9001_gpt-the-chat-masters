@@ -33,7 +33,14 @@ You can find ChatGPT here: <https://chat.openai.com/chat>
 ### Your Prompt
 Provide below the first description you gave ChatGPT:
 
-YOUR ANSWER HERE
+Write a program in python 3 that will generate 500 x 500 pixel PPM files. The following functionalities should exist:
+- Draw lines between two given points (x, y, and z coordinates) using Bresenham's Line Algorithm
+- Maintain an edge list of points by creating a list of lists in which each list inside the main edge list has dimension 4, and where consecutive lists in the main edge list represent points. Each point consists of x, y, and z values, as well as a final value of 1
+- Create 4x4 matrices that represent translations, rotations, and dilations
+- Save PPM files as PNGs using the pillow library
+- Display the images using ImageMagick
+- Draw circles, Bezier, and Hermite curves
+
 
 ### The Code
 Crate a folder in this repository called __0-program__ containing all the relevant code initially created by ChatGPT.

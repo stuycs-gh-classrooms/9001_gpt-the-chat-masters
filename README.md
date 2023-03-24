@@ -3,7 +3,7 @@
 ### Name0: Jaylen Zeng
 ### Name1: Samson Wu
 ### Name2: Vernon Hughes
-### Name3: TABLE_BUDY+ NAME HERE (if applicable, delete this line if not)
+### Name3: Daphne Qin
 
 ---
 

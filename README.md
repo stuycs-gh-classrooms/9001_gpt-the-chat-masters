@@ -79,8 +79,61 @@ if possible, run the code made by ChatGPT. Based on your answers the questions a
 
 Provide each prompt you gave ChatGPT bellow. Give each prompt a header like this :`#### Prompt X` where X is a counter starting at 1.
 
+#### Prompt 1
+
+can you continue from the save image function and add a way to plot the points from the edge list in a PPM file
+
+#### Prompt 2
+
+continue the code with new methods for drawing circles, bezier curves, and hermite curves
+
+#### Prompt 3
+
+can you finish the bezier curve and hermite curve functions
+
+#### Prompt 4
+
+write a method to apply a transformation matrix to the edge list
+
+#### Prompt 5
+
+Create a parser that will interpret a script to be used to draw an image.Each command is a single word without spaces in it, and if it takes arguments, the line after will contain the arguments, separated by spaces. Here is the full list of commands:
+- line: add a line to the point matrix - takes 6 arguemnts (x0, y0, z0, x1, y1, z1)
+- ident: set the transform matrix to the identity matrix
+- scale: create a scale matrix, then multiply the transform matrix by the scale matrix - takes 3 arguments (sx, sy, sz)
+- move: create a translation matrix, then multiply the transform matrix by the translation matrix - takes 3 arguments (tx, ty, tz)
+- rotate: create a rotation matrix, then multiply the transform matrix by the rotation matrix - takes 2 arguments (axis theta)
+- apply: apply the current transformation matrix to the edge matrix
+- display: clear the screen, draw the lines of the point matrix to the screen, display the screen
+- save: clear the screen, draw the lines of the point matrix to the screen/frame save the screen/frame to a file - takes 1 argument (file name)
+
+#### Prompt 6
+
+update the parser to use the function names defined in the other code for creating transformation matrices
+
+#### Prompt 7
+
+that is not correct, the function should process and complete each command rather than just returning a list of commands
+
+#### Prompt 8
+
+create a file main.py that uses parse_script on the file with filename "script"
+
+#### Prompt 9
+
+create a makefile that runs main.py
+
+#### Prompt 10
+
+rewrite the makefile with a tab character instead of spaces
+
+#### Prompt 11
+
+add a function to plot the points from the edge list by updating the structure used to write the PPM files
+
+#### Prompt 12
+
+write the identity_matrix function
+
 ## Task 3: The Final Program
 Include the final program created by ChatGPT in this repository in a folder called __1-program__.
-
-
-

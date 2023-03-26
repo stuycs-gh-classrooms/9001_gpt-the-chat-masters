@@ -135,5 +135,13 @@ add a function to plot the points from the edge list by updating the structure u
 
 write the identity_matrix function
 
+#### Prompt 13
+
+update the parser to handle the cases when commands are given and the arguments are given on the next line
+
+#### Prompt 14
+
+that is not correct, the function should process and complete each command, using arguments from the next line if needed, rather than just returning a list of commands
+
 ## Task 3: The Final Program
 Include the final program created by ChatGPT in this repository in a folder called __1-program__.
